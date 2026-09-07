@@ -1,0 +1,31 @@
+Preguntas primera clase
+
+1. ¿Por qué no sería práctico crear una variable diferente para cada estudiante si tenemos 10.000 estudiantes?
+Respuesta: Significaria de manera literal tener que escribir desde estudiante1 hasta estudiante10.000 uno por uno haciendo que el proyecto tenga inmuerables lineas de codigo solo poniendo cada uno de los 10,000 estudiantes uno por uno
+
+2. ¿Qué ventaja tiene utilizar una lista?
+Respuesta: sobre el punto anterior una lista es una manera mas comoda y directa de poner nombres ya que se agergan todos los elementos si tener que inicializarlos individualmente
+
+3. ¿Qué es un índice?
+Respuesta: Es el número que representa la posición exacta de un elemento dentro de de la estructura de datos
+
+4. ¿Qué diferencia encuentra entre una lista y una matriz?
+Respuesta: la lista solo abarca nombres y elementos mas simples en cambio la matriz toma indices y columnas
+
+5. ¿Qué sucede cuando necesitamos buscar un elemento dentro de muchos datos?
+Respuesta: cuantos mas datos alla el programa tardara mas en encontrarlo debido a que busca elemento por elemento para encontrarlo  
+
+6. ¿Qué sucede cuando necesitamos ordenar muchos datos?
+Respuesta: el computador debe comparar entre muchos datos segun el numero de elementos que alla y una vez identificados podra determinar un elemento para anotar y luego comparar su jerarquia de orden entre otros sin embargo esto hace que requiera de ver todo una y otra vez segun la cantidad de cosas que tenga que comparar por ver los datos repetidas veces para la operacion de comparacion
+
+7. Imagine una fila de personas esperando para entrar a un banco. ¿Qué debería ocurrir con la primera persona que llegó?
+Respuesta: la primera que llego por orden debe ser la primera en ser atendida llevando a que sea la primera en salir
+
+8. Imagine un botón DESHACER en un programa. ¿Qué información debería guardarse para poder regresar a la acción anterior?
+Respuesta: Se debe registrar un historial con el estado exacto de los últimos cambios o acciones del usuario. Al presionar el botón, el programa borra o revierte la última acción hecha, funcionando al revés que la fila del banco.
+
+9. ¿Por qué cree que existen diferentes estructuras para almacenar información?
+Respuesta: Por que todos los programas y problemas tienen presentan fallos o espesificaciones diferentes entre todos cada una puede tener maneras de organizar y recopilar datos diferentes junto a la cuestion por utilidad
+
+10. ¿Qué cree que estudia una asignatura llamada Estructuras de Datos?
+Respuesta: Seguramente debe estudiar programas de recopilizacion de masivas fuentes de datos y trabajar con estos para diferentes necesidades algo como excel pero de nivel universitario
