@@ -20,9 +20,9 @@ for prod in productos:
 
 # Resspuesta final a usario
 if encontrado:
-    print(f"Resultado: El producto: {busqueda} Si esta disponible en el inventario.")
+    print(f"Resultado: El producto {busqueda} Si esta disponible en el inventario.")
 else:
-    print(f"Resultado: El producto: {busqueda} No esta disponible en el inventario.")
+    print(f"Resultado: El producto {busqueda} No esta disponible en el inventario.")
 
 # Explicar brevemente cómo hizo el programa para recorrer la lista. 
 

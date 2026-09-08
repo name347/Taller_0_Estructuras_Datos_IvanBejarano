@@ -14,35 +14,37 @@ def multiplicar_dos_numeros(primer_numero, segundo_numero):
 
 def dividir_dos_numeros(primer_numero, segundo_numero):
     if segundo_numero == 0:
-        return "Error: No se puede dividir entre cero."
+        return "Error: no se puede dividir entre cero."
     resultado_de_la_division = primer_numero / segundo_numero
     return resultado_de_la_division
 
 while True:
     print("=========================")
-    print("       CALCULADORA")
+    print("       Calculadora")
     print("=========================")
-    print("1. Sumar")
-    print("2. Restar")
-    print("3. Multiplicar")
-    print("4. Dividir")
-    print("5. Salir")
+    print("1 - Sumar")
+    print("2 - Restar")
+    print("3 - Multiplicar")
+    print("4 - Dividir")
+    print("5 - Salir")
     
     opcion_seleccionada_por_el_usuario = input("Seleccione una opción (1-5): ")
     print("--------------------------------------------------------")
     
     if opcion_seleccionada_por_el_usuario == "5":
-        print("Saliendo de la calculadora... ¡Hasta luego!")
+        print("Saliendo de calculadora")
         print("--------------------------------------------------------")
         break
         
     if opcion_seleccionada_por_el_usuario == "1" or opcion_seleccionada_por_el_usuario == "2" or opcion_seleccionada_por_el_usuario == "3" or opcion_seleccionada_por_el_usuario == "4":
-        # Datos requeridos para las operaciones matematicas
+
+        
+        # Datos requeridos para las operaciones matemáticas
         primer_numero_ingresado = float(input("Escribe tu primer número: "))
         segundo_numero_ingresado = float(input("Escribe tu segundo número: "))
         print("--------------------------------------------------------")
         
-        print("Resultados de la operacion seleccionada:")
+        print("Resultados de la operación seleccionada:")
         if opcion_seleccionada_por_el_usuario == "1":
             print(f"Resultado: {sumar_dos_numeros(primer_numero_ingresado, segundo_numero_ingresado)}")
         elif opcion_seleccionada_por_el_usuario == "2":
@@ -55,3 +57,4 @@ while True:
     else:
         print("Opción no válida. Por favor, intente de nuevo.")
         print("=================================\n")
+# .

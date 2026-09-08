@@ -1,4 +1,3 @@
-
 | Aspecto | Sí | Necesito repasar |
 | :--- | :---: | :---: |
 | Puedo utilizar variables y tipos de datos. | [x] | [ ] |
